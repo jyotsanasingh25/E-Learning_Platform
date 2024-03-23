@@ -287,7 +287,7 @@ html{
     width:90px;
     height:90p;
     padding:10px;
-    margin-top:4rem;
+    margin-top:6rem;
     margin-right: 9rem;;
     border-radius:50px;
     background-color: #12c2b9;
@@ -320,7 +320,7 @@ html{
 .pattern{
     position:absolute;
     top:100px;
-    left:480px;
+    left:500px;
     z-index: -1;
 }
 .pattern img{
@@ -333,14 +333,17 @@ html{
 /*banner section ends*/
 
 
-/*media query  section starts*/
-@media(max-width:968px){
-    /*home section*/
+ /*media query  section starts*/
+
+             /*-----home section-------*/
+/* @media(max-width:968px){
+   
     .header{
         display:flex;
         margin-left:40px;
         z-index:101;
-    }
+    
+}
     .header .navbar a{
         position:fixed;
         width:100%;
@@ -356,18 +359,76 @@ html{
 
     }
 
+    .header .navbar a{
+            position:fixed;
+            width:100%;
+            height:100vh;
+            top:0;
+            right:0;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            background-color: #12c2b9;
+            transition: right 0.3s cubic-bezier(.15, .61, .94, .25);
+            z-index:100;
+    }
 
+    .header.menu-btn.active span,
+    .header.menu-btn.active span::before,
+    .header.menu-btn.active span::after{
+        width:100%;
+    }
+    .header.menu-btn.active span::before{
+        transform: rotate(45deg) translateY(0px);
+    }
+    .header.menu-btn.active span::after{
+        transform: rotate(-45deg) translateY(0px);
+
+    }  
+    .header.menu-btn.active span{
+        background-color: transparent;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        justify-content:flex-start ;
+        align-items: flex-start;
+    }
+    .banner-desc,
+    .banner-desc-img{
+        align-self: center;
+        margin-bottom: 50px;
+    }
 }
 
 
-@media(max-width:768px){}
+ @media(max-width:768px){
+    .banner-img-container.states .total-courses{
+        left:5px;
+        bottom:10%;
+    }
+    .banner .banner-desc h2{
+        font-size:42px;
+    }
+}
 
 @media(max-width:668px){}
 
 @media(max-width:568px){}
 
-@media(max-width:468px){}
-
+@media(max-width:468px){
+    .banner-img.banner-img-container{
+        width:100%;
+    }
+    .banner-desc.search-bar{
+        width:100%;
+    }
+    .courses-ratings{
+        top:30px;
+        right:-10px;
+    }
+} 
+ */
 
 
 /*media query section ends*/
