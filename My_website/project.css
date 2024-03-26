@@ -333,6 +333,92 @@ html{
 /*banner section ends*/
 
 
+/*-----PARTNERS SECTION STARTS--------*/
+section.partners{
+     /* width:30%;
+    padding:5px 8%;   */
+    background-color:#dbfffe;
+    --box-shadow:0 .7rem 1rem rgba(0,0,0,0.6);
+
+}
+.partners h3{
+    margin-left:20px;
+    color:black;
+    font-size:18px;
+    font-family: bolder;
+}
+
+.aprtners.partners-slider.brand-items{
+    text-align:center;
+    background-color: #dcf4f3;
+    padding:5px;
+}
+.partners.partners-slider.brand-items img{
+    display:inline-block;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.owl-carousel.owl-nav{
+    position:absolute;
+    right:0;
+    top:-80px;
+}
+.owl-carousel.owl-nav button{
+    border-radius:5px !important;
+}
+.owl-carousel.owl-nav .owl-prev i,
+.owl-carousel.owl-nav .owl-next i{
+    padding:8px 14px !important;
+    border-radius:5px;
+    font-size:16px !important;
+    background-color: #12c2b9;
+    color:black;
+    border:1px solid transparent;
+    cursor: pointer;
+    transform: 0.3s;
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+/*-----PARTNERS SECTION ENDS--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
  /*media query  section starts*/
 
              /*-----home section-------*/
@@ -432,3 +518,5 @@ html{
 
 
 /*media query section ends*/
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
