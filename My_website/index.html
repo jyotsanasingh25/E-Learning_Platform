@@ -33,7 +33,7 @@
 
     <header class="header">
         <!-- <img src="logo.png" alt=""> -->
-        <a href="index.php" class="logo"><i class="fa-solid fa-chalkboard-user"><br><br></i>𝕷𝖊𝖆𝖗𝖓𝖎𝖓𝖌 𝖜𝖎𝖙𝖍 𝖒𝖊!</a>
+        <a href="index.php" class="logo">𝕷𝖊𝖆𝖗𝖓𝖎𝖓𝖌 𝖜𝖎𝖙𝖍 𝖒𝖊</a>
 
         <nav class="navbar">
             <a href="#home">
@@ -49,9 +49,9 @@
             </a>
 
             <a href="#Login">
-                <underline>Login</underline>
+                Login
             </a>
-            <a href="#signup">
+            <a href="#signup" class="nav-link " data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <underline>Signup</underline>
             </a>
         
@@ -63,9 +63,12 @@
                 <underline>Logout</underline>
             </a>
           
+            <a href="#contact us">
+                <underline>Contact us</underline>
+            </a>
         </nav>
         <a href="#" class="get-started-btn-container">
-            <button class="get-started-btn btn">Get Started!</button>
+            <button class="button">Get Started!</button>
         </a>
         <div class="menu-btn">
             <span></span>
@@ -77,17 +80,15 @@
     <section>
         <div class="banner">
             <div class="banner-desc">
-                <h2>"Elevate Your Education, Elevate Your Future"</h2>
+                <h2>Wisdom Works</h2>
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sequi, culpa laboriosam, id provident
                     nulla exercitationem hic doloremque accusantium numquam amet fugit dignissimos nostrum magnam! Eos
                     facilis atque totam Quo sequi, culpa laboriosam, id provident nulla exercitationem hic doloremque
                     accusantium numquam amet fugit dignissimos nostrum magnam! Eos facilis atque </p>
-                <form class="search-bar">
-                    <!-- <input type="button" placeholder="Gets started"> -->
-                    <!-- <button >input type="button" placeholder=""></button> -->
-                    <!-- <i class="fa-solid fa-search"></i> -->
-                    <a href="" class="btn btn-danger">gets started </a>
+                
+            
+                    <a href="" class="btn btn-danger" id="danbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Gets started </a>
                 </form>
             </div>
             <div class="banner-img">
@@ -175,8 +176,29 @@
 
 
 
+<!-- Registration page  start-->
 
-
+<!-- Button trigger modal -->
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+<!-- Registration page  End -->
 
 <!------link to JQuery---------------------------->
 
