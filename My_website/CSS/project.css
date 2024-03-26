@@ -7,7 +7,7 @@
 }
 
 *{
-    font-family:  'DM Sans',sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifans-serif;
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -68,47 +68,52 @@ html{
     background-color: #12c2b9;  /*---header color*/
     z-index: 100;
 }
+
 .header .logo{
     font-size:2.3rem;
-    font-weight:bolder;
-    color:black; /* learning with me */
+    font-weight:100;
+    color:rgb(255, 254, 254); /* learning with me */
+    margin-right: 10px;
+    margin-bottom: 1vh;
 }
 .header-logo i{
     color:black;
     padding-right:.5rem;
 }
 .header .navbar a{
-    font-size:1.7rem;
-    color:black; /*for header words*/
+    font-size:1.5rem;
+    color:rgb(255, 255, 255); /*for header words*/
     margin:0 1rem;
 }
 .navbar a:hover{
-    transition: all .3s linear;
-    color:blue;
-    font-size:2rem;/*for header word size*/
-    text-decoration:double underline;
+    transition: all .2s linear;
+    color:rgb(242, 242, 245);
+    font-size:1.6rem;/*for header word size*/
     position:absolute;
     font-weight:10px;
     position: relative;
     max-width:max-content;
     width:100%;
     height:.5rem;
-    border-block:.1rem solid var(blue);
     opacity: rgba(0,0,0,0.1rem);
     content:'';
     position:sticky;
     top:calc(100% +2px);
     transform: scaleX(1);
 }
-.get-started-btn{
-    background-color: #12c2b9;
+.button{
+    background-color: #7a35c8;
     color:#dbfffe;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 1.4rem;
 }
-.get-started-btn:hover{
-    background-color:#dcf4f3;
-    color:#dbfffe;
-    border:1px solid var(--primary-color);
-    border:0.2rem solid black;
+.button:hover{
+    background-color:#e83333;
+    color:#ffffff;
+    font-size:1.5rem ;
+   
 }
 .menu-btn{
     min-width:30px;
@@ -169,11 +174,14 @@ html{
     color:black;
     letter-spacing: 1.4;
     margin-bottom:10px;
+    margin-right:2px ;
 }
 .banner-desc p{
     color:black;
-    line-height:1.4;
-    margin-bottom:50px;
+    line-height:1.6;
+    margin-bottom:20px;
+    margin-right:10px ;
+    font-size: 1.3rem;
 }
 .banner-desc.search-bar{
     position:relative;
@@ -183,17 +191,23 @@ html{
     align-items: center;
     overflow: hidden;
 }
-.banner-desc .search-bar input{
-    width:45%;
-    height:50%;
-    padding:0px 65px 0px 20px;
-    font-size:18px;
-    letter-spacing: 2px;
-    background-color:#12c2b9;
-    color:#dbfffe;
-    border:3px solid black;
-    outline-color:#dbfffe;
+.banner-desc #danbtn{
+   
+    background-color: #be2d2d;
+    color:#ffffff;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
 }
+.banner-desc #danbtn:hover{
+    font-size: 1.6rem;
+    width: 155px;
+    height: 45px;
+    transition: all .3s linear;
+}
+
 /* .banner-desc .search-bar i{
     position: absolute;
     height: 30%;
