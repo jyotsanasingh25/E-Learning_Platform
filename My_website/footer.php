@@ -67,3 +67,29 @@
         </div>
 
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------JAVASCRIPT LINK-------------->
+    <script type="text/javascript" src="JS/project.js"></script>
+    <script type="text/javascript" src="JS/bootstrap.min.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    
+    
+    
+</body>
+
+</html>
