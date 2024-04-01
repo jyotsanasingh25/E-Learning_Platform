@@ -377,7 +377,7 @@ section.services {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #8de4e0;
+    background-color: #fafdfd;
 
 
 }
@@ -387,6 +387,7 @@ section.services {
     padding: 25px 20px;
     cursor: pointer;
     transition: all 0.3s;
+    background-color: #12c2b9;
 }
 
 .services-contents .service-box:hover {
