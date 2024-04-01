@@ -1,78 +1,9 @@
-<<<<<<< HEAD:My_website/index.php
 <!-- header section start -->
 <?php
 include('./header.php');
 
 ?>
 <!-- header section ends -->\
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
-</head>
-<!-- font awesome css link -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-<!-- main css file -->
-<link rel="stylesheet" href="CSS/project.css">
-<!-- <link rel="stylesheet" href="CSS/bootstrap.min.css"> -->
-
-<!--font-generator-->
-<link rel="stylesheet" href="https://tools.picsart.com/text/font-generator/">
-<!-----font-style link-->
-<link rel="stylesheet" href="https://tools.picsart.com/text/font-generator/">
-
-<!-----link of owl carousel--------->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-<link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-
-
-
-
-<body>
-
-
-    <!------HEADER SECTION STARTS-->
-
-    <header class="header">
-        <!-- <img src="IMAGE_FOLDER/logo.png" alt=""> -->
-        <a href="#" class="logo">𝕷𝖊𝖆𝖗𝖓𝖎𝖓𝖌 𝖜𝖎𝖙𝖍 𝖒𝖊!</a>
-
-        <nav class="navbar">
-            <a href="#home">
-                Home
-            </a>
-            <a href="#Services">
-                <underline>Services</underline>
-            </a>
-            <a href="#courses">
-                <underline>Courses</underline>
-            </a>
-            <a href="#category">
-                <underline>Category</underline>
-            </a>
-            <a href="#review">
-                <underline>Review</underline>
-            </a>
-            <a href="#contact">
-                <underline>Contact</underline>
-            </a>
-
-        
-        </nav>
-
-        <div class="menu-btn">
-            <span></span>
-        </div>
-    </header>
-    <!------header section ends-------->
->>>>>>> main:My_website/project.html
 
     <!----banner section starts-->
     <section>
@@ -154,10 +85,6 @@ include('./header.php');
 
                 </div>
             </div>
-<<<<<<< HEAD:My_website/index.php
-=======
-        
->>>>>>> main:My_website/project.html
             <div class="service-box">
                 <div class="service-icon">
                     <i class="fa-solid fa-user"></i>
@@ -203,23 +130,15 @@ include('./header.php');
         <!-----courses contents starts------------>
         <div class="course-contents">
             <div class="course-card">
-<<<<<<< HEAD:My_website/index.php
                 <img src="IMAGE_FOLDER/web development.jpg" alt="">
                 <div class="category">
                     <div class="subjects">
                         <h3>Web Developement</h3>
-=======
-                <img src="IMAGE_FOLDER/learn-1.webp" alt="">
-                <div class="category">
-                    <div class="subjects">
-                        <h3>Design</h3>
->>>>>>> main:My_website/project.html
                     </div>
                     <img src="IMAGE_FOLDER/tea 1.webp" alt="">
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
-<<<<<<< HEAD:My_website/index.php
                     <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                 </div>
@@ -228,15 +147,6 @@ include('./header.php');
                    
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -250,7 +160,6 @@ include('./header.php');
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
-<<<<<<< HEAD:My_website/index.php
                     <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
                     <span><i class="fa-solid fa-users"></i> +200+ Students</span>
                 </div>
@@ -258,14 +167,6 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
->>>>>>> main:My_website/project.html
 
                 </div>
             </div>
@@ -281,7 +182,6 @@ include('./header.php');
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-<<<<<<< HEAD:My_website/index.php
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                     
                 </div>
@@ -289,14 +189,6 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -311,7 +203,6 @@ include('./header.php');
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
-<<<<<<< HEAD:My_website/index.php
                     <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                 </div>
@@ -319,15 +210,6 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>200</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -341,7 +223,6 @@ include('./header.php');
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
-<<<<<<< HEAD:My_website/index.php
                     <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                 </div>
@@ -349,15 +230,6 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -372,21 +244,12 @@ include('./header.php');
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-<<<<<<< HEAD:My_website/index.php
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                 </div>
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -401,7 +264,6 @@ include('./header.php');
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
-<<<<<<< HEAD:My_website/index.php
                     <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                 </div>
@@ -409,15 +271,6 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -431,7 +284,6 @@ include('./header.php');
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
-<<<<<<< HEAD:My_website/index.php
                     <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                 </div>
@@ -439,15 +291,6 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -461,7 +304,6 @@ include('./header.php');
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
-<<<<<<< HEAD:My_website/index.php
                     <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 200+ Students</span>
                 </div>
@@ -469,15 +311,6 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
                     <button class="Enroll-btn btn">Enroll</button>
-=======
-                    <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>$</b>120.00</span>
-
->>>>>>> main:My_website/project.html
                 </div>
             </div>
         </div>
@@ -795,83 +628,10 @@ include('./header.php');
 
     <!-- footer section starts -->
 
-<<<<<<< HEAD:My_website/index.php
     <?php
     include('./footer.php');
 
     ?>
-=======
-
-    <section class="footer" id="footer">
-        <div class="footer-contents">
-            <div class="footer-col footer-col-1">
-                <div class="col-title">
-                    <img src="IMAGE_FOLDER/logo.png" alt="">
-                </div>
-                <div class="col-contents">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste consequatur dicta voluptatum.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="footer-col footer-col-2">
-                <div class="col-title">
-                    <h3>Contact </h3>
-                </div>
-                <div class="col-contents">
-                    <div class="contact-row">
-                        <span>Address :-</span>
-                        <span>12347 Street Washinton DC, England</span>
-                    </div>
-
-                    <div class="contact-row">
-                        <span>Phone :-</span>
-                        <span>+012 5604 4549</span>
-                    </div>
-
-                    <div class="contact-row">
-                        <span>Website :-</span>
-                        <span>Five-Star-Tutorials.com</span>
-                    </div>
-                    <div class="contact-row">
-                        <span>Email</span>
-                        <span>learning@tutorials.com</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-col footer-col-3">
-                <div class="col-title">
-                    <h3>Quick Links</h3>
-                </div>
-                <div class="col-contents">
-                    <a href="#">Home</a>
-                    <a href="#">Courses</a>
-                    <a href="#">Services</a>
-                    <a href="#">Category</a>
-                    <a href="#">Review</a>
-                    <a href="#">Contact</a>
-                </div>
-            </div>
-            <div class="footer-col footer-col-4">
-                <div class="col-title">
-                    <h3>Newsletter</h3>
-                </div>
-                <div class="col-contents">
-                    <form class="newsletter">
-                        <input type="email" placeholder="Your Email :-">
-                     <button class="newsletter-btn btn" type="submit">Subsribe</button>
-                    </form> 
-                </div>
-            </div>
-        </div>
-        <div class="copy-rights">
-            <p>Created By <b>Learning with Me Tutorials</b> All Rights Reserved</p>
-
-        </div>
-<button><a href="#text">click me</a></button>
-    </section>
-
->>>>>>> main:My_website/project.html
     <!--footer section ends -->
 
 
