@@ -1,3 +1,11 @@
+<<<<<<< HEAD:My_website/index.php
+<!-- header section start -->
+<?php
+include('./header.php');
+
+?>
+<!-- header section ends -->\
+=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,6 +72,7 @@
         </div>
     </header>
     <!------header section ends-------->
+>>>>>>> main:My_website/project.html
 
     <!----banner section starts-->
     <section>
@@ -145,7 +154,10 @@
 
                 </div>
             </div>
+<<<<<<< HEAD:My_website/index.php
+=======
         
+>>>>>>> main:My_website/project.html
             <div class="service-box">
                 <div class="service-icon">
                     <i class="fa-solid fa-user"></i>
@@ -191,15 +203,32 @@
         <!-----courses contents starts------------>
         <div class="course-contents">
             <div class="course-card">
+<<<<<<< HEAD:My_website/index.php
+                <img src="IMAGE_FOLDER/web development.jpg" alt="">
+                <div class="category">
+                    <div class="subjects">
+                        <h3>Web Developement</h3>
+=======
                 <img src="IMAGE_FOLDER/learn-1.webp" alt="">
                 <div class="category">
                     <div class="subjects">
                         <h3>Design</h3>
+>>>>>>> main:My_website/project.html
                     </div>
                     <img src="IMAGE_FOLDER/tea 1.webp" alt="">
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
+<<<<<<< HEAD:My_website/index.php
+                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                   
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
@@ -207,6 +236,7 @@
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -220,12 +250,22 @@
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
+<<<<<<< HEAD:My_website/index.php
+                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
+                    <span><i class="fa-solid fa-users"></i> +200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
+>>>>>>> main:My_website/project.html
 
                 </div>
             </div>
@@ -241,12 +281,22 @@
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
+<<<<<<< HEAD:My_website/index.php
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                    
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -261,6 +311,15 @@
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
+<<<<<<< HEAD:My_website/index.php
+                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>200</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
@@ -268,6 +327,7 @@
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -281,6 +341,15 @@
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
+<<<<<<< HEAD:My_website/index.php
+                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
@@ -288,6 +357,7 @@
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -302,12 +372,21 @@
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
+<<<<<<< HEAD:My_website/index.php
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -322,6 +401,15 @@
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
+<<<<<<< HEAD:My_website/index.php
+                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
@@ -329,6 +417,7 @@
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -342,6 +431,15 @@
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
+<<<<<<< HEAD:My_website/index.php
+                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
@@ -349,6 +447,7 @@
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
 
@@ -362,6 +461,15 @@
                 </div>
                 <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
                 <div class="course-desc">
+<<<<<<< HEAD:My_website/index.php
+                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
+                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
+                </div>
+                <div class="course-ratings">
+                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
+                    <span><b>Rs</b>499</span>
+                    <button class="Enroll-btn btn">Enroll</button>
+=======
                     <span> <i class="fa-solid fa-video"></i> 50 Videos</span>
                     <span><i class="fa-solid fa-users"></i> 3000+ Students</span>
                 </div>
@@ -369,6 +477,7 @@
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>$</b>120.00</span>
 
+>>>>>>> main:My_website/project.html
                 </div>
             </div>
         </div>
@@ -686,6 +795,12 @@
 
     <!-- footer section starts -->
 
+<<<<<<< HEAD:My_website/index.php
+    <?php
+    include('./footer.php');
+
+    ?>
+=======
 
     <section class="footer" id="footer">
         <div class="footer-contents">
@@ -756,6 +871,7 @@
 <button><a href="#text">click me</a></button>
     </section>
 
+>>>>>>> main:My_website/project.html
     <!--footer section ends -->
 
 
