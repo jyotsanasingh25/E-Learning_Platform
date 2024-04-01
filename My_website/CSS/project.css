@@ -59,33 +59,6 @@ body {
     /*for whole body background color*/
 }
 
-/*button styling starts*/
-button.btn {
-    padding: 10px 18px;
-    background-color: #dcf4f3;
-    color: #12c2b9;
-    font-size: 15px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    /* transition: all 0.3s; */
-}
-
-button.btn:hover {
-    background-color: var(#12c2b9);
-    color: black;
-    border: 1px solid var(#dcf4f3);
-    transition: all 0.3s ease;
-    font-size: 1.6rem;
-    text-decoration: double underline;
-    content: '';
-    position: sticky;
-
-}
-
-/*button styling ends*/
-
-
 html {
     font-size: 66%;
     overflow-x: hidden;
@@ -119,10 +92,10 @@ html {
     /* learning with me */
 }
 
-.header-logo i {
+/* .header-logo i {
     color: black;
     padding-right: .5rem;
-}
+} */
 
 .header .navbar a {
     font-size: 1.7rem;
@@ -133,12 +106,13 @@ html {
 
 .navbar a:hover {
     transition: all .3s linear;
-    color: blue;
+    color: rgb(18, 17, 16);
     font-size: 2rem;
     /*for header word size*/
-    text-decoration: double underline;
+    text-decoration: underline;
+    font-size: bold;
     position: absolute;
-    font-weight: 10px;
+    font-weight: 8px;
     position: relative;
     max-width: max-content;
     width: 100%;
@@ -151,17 +125,6 @@ html {
     transform: scaleX(1);
 }
 
-.get-started-btn {
-    background-color: #12c2b9;
-    color: #dbfffe;
-}
-
-.get-started-btn:hover {
-    background-color: #dcf4f3;
-    color: #dbfffe;
-    border: 1px solid var(--primary-color);
-    border: 0.2rem solid black;
-}
 
 .menu-btn {
     min-width: 30px;
@@ -238,40 +201,31 @@ html {
     margin-bottom: 50px;
 }
 
-.banner-desc.search-bar {
-    position: relative;
-    width: 450px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+/*button styling starts*/
+button.get-started-btn{
+    padding: 10px 18px;
+    background-color: #23c6be;
+    color: #000000;
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+   
 }
 
-.banner-desc .search-bar input {
-    width: 45%;
-    height: 50%;
-    padding: 0px 65px 0px 20px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    background-color: #12c2b9;
-    color: #dbfffe;
-    border: 3px solid black;
-    outline-color: #dbfffe;
+button.btn:hover {
+    background-color: rgb(189, 30, 30);
+    color: rgb(255, 255, 255);
+    border: 1px solid ;
+    transition: all 0.3s ease;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    content: '';
+    position: sticky;
+
 }
 
-/* .banner-desc .search-bar i{
-    position: absolute;
-    height: 30%;
-    width:40px;
-    background-color:black;  
-    margin-right:10%;
-    color:black;                    correct this portion of serach bar later
-    border-radius:0px 5px 5px 0px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    cursor:pointer;
-} */
+/*button styling ends*/
 
 .banner.banner-img {
     position: relative;
@@ -517,18 +471,23 @@ section.courses {
     justify-content: space-between;
 }
 
-.courses .section-header .courses-btn {
+.courses .section-header button.courses-btn{
     position: absolute;
     right: 0;
     bottom: 40px;
     padding: 10px 26px;
-    background-color: #dbfffe;
-    border: 2px solid black;
+    background-color:rgb(189, 30, 30);
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
 
 }
 
 .courses .section-header .courses-btn:hover {
-    background-color: #12c2b9;
+    background-color:rgb(189, 30, 30);
+    font-size:17px ;
 }
 
 .courses .course-contents {
@@ -634,7 +593,17 @@ section.courses {
 .course-card .course-ratings span b {
     font-size: 24px;
 }
-
+button.Enroll-btn{
+   
+        padding: 8px 16px;
+        background-color: #c62323;
+        color: #fff3f3;
+        font-size: 15px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+    
+}
 /*courses section ends*/
 
 
@@ -984,19 +953,30 @@ section.instructor {
 }
 
 .footer .copy-rights {
-    padding: 30px 0px 0px;
+    padding: 25px 0px 0px;
     border-top: 2px solid var(--secondary);
     text-align: center;
 }
 
 .footer .copy-rights p {
+    font-size: 15px;
     color: black;
+    margin-bottom: 5px;
 }
 
 .footer .copy-rights p b {
     color: yellow;
 }
+.footer .copy-rights a{
+    border: 1px solid #fff;
+    font-size: 10px;
+    background-color: #c62323;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
 
+
+}
 /* footer section ends*/
 
 
@@ -1016,7 +996,7 @@ section.instructor {
 /*media query  section starts*/
 
 /*-----home section-------*/
-/* @media(max-width:968px){
+ @media(max-width:968px){
    
     .header{
         display:flex;
@@ -1039,7 +1019,7 @@ section.instructor {
 
     }
 
-    .header .navbar a{
+    .header.navbar a{
             position:fixed;
             width:100%;
             height:100vh;
@@ -1108,7 +1088,7 @@ section.instructor {
         right:-10px;
     }
 } 
- */
+ 
 
 
 /*media query section ends*/
