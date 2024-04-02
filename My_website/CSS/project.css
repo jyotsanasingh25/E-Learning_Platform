@@ -471,6 +471,9 @@ section.courses {
     display: flex;
     justify-content: space-between;
 }
+.courses .section-header  p{
+    font-size: 13px;
+}
 
 .courses .section-header a{
     position: absolute;

@@ -121,8 +121,7 @@ include('./header.php');
         <header class="section-header">
             <div class="header-text">
                 <h1>Choose Your Favourite Course</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deleniti praesentium aliquid similique
-                    illum ullam.</p>
+                <p>Education is our passport to the future, for tomorrow belongs only to the people who prepare for it today</p>
             </div>
            <a href="courses.php" class="view-btn">View All </a>
         </header>
