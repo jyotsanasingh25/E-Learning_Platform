@@ -60,7 +60,7 @@
             <a href="#Login">
                 <underline>Login</underline>
             </a>
-             <a href="#Signup">
+             <a href="resigstration.php">
                 <underline>Register</underline>
             </a>
         
