@@ -41,8 +41,8 @@
                     <h3>Quick Links</h3>
                 </div>
                 <div class="col-contents">
-                    <a href="#">Home</a>
-                    <a href="#">Courses</a>
+                    <a href="index.php">Home</a>
+                    <a href="courses.php">Courses</a>
                     <a href="#">Services</a>
                     <a href="#">Category</a>
                     <a href="#">Review</a>

@@ -635,6 +635,8 @@ section.categories {
     align-items: center;
     cursor: pointer;
     transition: all 0.3s;
+    margin-bottom: 12px;
+    
 }
 
 .categories-contents .category-item:hover {
