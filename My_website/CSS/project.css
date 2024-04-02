@@ -472,7 +472,7 @@ section.courses {
     justify-content: space-between;
 }
 
-.courses .section-header button.courses-btn{
+.courses .section-header a{
     position: absolute;
     right: 0;
     bottom: 40px;
@@ -486,7 +486,7 @@ section.courses {
 
 }
 
-.courses .section-header .courses-btn:hover {
+.courses .section-header a:hover {
     background-color:rgb(189, 30, 30);
     font-size:17px ;
 }
