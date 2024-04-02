@@ -41,8 +41,8 @@
                     <h3>Quick Links</h3>
                 </div>
                 <div class="col-contents">
-                    <a href="#">Home</a>
-                    <a href="#">Courses</a>
+                    <a href="index.php">Home</a>
+                    <a href="courses.php">Courses</a>
                     <a href="#">Services</a>
                     <a href="#">Category</a>
                     <a href="#">Review</a>
@@ -63,7 +63,7 @@
         </div>
         <div class="copy-rights">
             <p>Created By <b>Learning with Me <-JPS-></b></p>
-            <a href="#text">Admin login</a> 
+            <a href="admin.php">Admin login</a> 
         </div>
 
     </section>
@@ -87,9 +87,9 @@
     <script type="text/javascript" src="JS/bootstrap.min.js"></script>
     <script src="JS/jquery.min.js"></script>
     <script src="JS/popper.min.js"></script>
-    
-    
-    
-</body>
 
-</html>
+    <!-- student ajax call js -->
+    <script type="text/javascript" src="JS/ajaxrequest.js"></script>
+    
+    
+    

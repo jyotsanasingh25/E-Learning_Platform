@@ -471,8 +471,11 @@ section.courses {
     display: flex;
     justify-content: space-between;
 }
+.courses .section-header  p{
+    font-size: 13px;
+}
 
-.courses .section-header button.courses-btn{
+.courses .section-header a{
     position: absolute;
     right: 0;
     bottom: 40px;
@@ -483,10 +486,9 @@ section.courses {
     cursor: pointer;
     font-size: 15px;
     border-radius: 5px;
-
 }
 
-.courses .section-header .courses-btn:hover {
+.courses .section-header a:hover {
     background-color:rgb(189, 30, 30);
     font-size:17px ;
 }
@@ -633,6 +635,8 @@ section.categories {
     align-items: center;
     cursor: pointer;
     transition: all 0.3s;
+    margin-bottom: 12px;
+    
 }
 
 .categories-contents .category-item:hover {

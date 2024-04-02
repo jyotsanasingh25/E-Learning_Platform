@@ -16,7 +16,7 @@ include('./header.php');
                     facilis atque totam Quo sequi, culpa laboriosam, id provident nulla exercitationem hic doloremque
                     accusantium numquam amet fugit dignissimos nostrum magnam! Eos facilis atque </p>
 
-                    <a href="#" class="get-started-btn-container">
+                    <a href="registration.php" class="get-started-btn-container">
                         <button class="get-started-btn btn">Get Started!</button>
                     </a>
                 
@@ -121,12 +121,12 @@ include('./header.php');
         <header class="section-header">
             <div class="header-text">
                 <h1>Choose Your Favourite Course</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deleniti praesentium aliquid similique
-                    illum ullam.</p>
+                <p>Education is our passport to the future, for tomorrow belongs only to the people who prepare for it today</p>
             </div>
-            <button class="courses-btn btn">View All </button>
+           <a href="courses.php" class="view-btn">View All </a>
         </header>
         <!-----courses section ends------------>
+       
         <!-----courses contents starts------------>
         <div class="course-contents">
             <div class="course-card">
@@ -146,7 +146,7 @@ include('./header.php');
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                    
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
+                   <a href="coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
                 </div>
             </div>
 
@@ -335,7 +335,7 @@ include('./header.php');
                 </div>
                 <div class="category-desc">
                     <h3>
-                        <center>Designing</center>
+                        <center>Web Designing</center>
                     </h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quia esse asperiores, quod nulla
                         inventore dignissimos quibusdam.</p>
@@ -617,7 +617,6 @@ include('./header.php');
 
 <!-- ---------------------------------------------------------- -->
 <!-- information section starts -->
-
 
 
 
