@@ -44,7 +44,9 @@
             <a href="courses.php">
                 <underline>Courses</underline>
             </a>
-            
+            <a href="paymentstatus.php">
+                Payment status
+            </a>
             <a href="#review">
                 <underline>Review</underline>
             </a>
@@ -60,8 +62,6 @@
             <a href="#Login">
                 <underline>Login</underline>
             </a>
-
-
              <a href="registration.php">
                 <underline>Register</underline>
             </a>
