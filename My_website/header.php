@@ -60,6 +60,8 @@
             <a href="#Login">
                 <underline>Login</underline>
             </a>
+
+
              <a href="registration.php">
                 <underline>Register</underline>
             </a>
