@@ -124,7 +124,7 @@ include('./header.php');
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deleniti praesentium aliquid similique
                     illum ullam.</p>
             </div>
-            <button class="courses-btn btn">View All </button>
+           <a href="courses.php" class="view-btn">View All </a>
         </header>
         <!-----courses section ends------------>
         <!-----courses contents starts------------>
