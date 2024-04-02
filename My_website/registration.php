@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +10,7 @@
 
 <div class="container">
     <h2>Registration</h2>
-    <form action="#" method="post">
+    <form id="registrationForm">
         <div class="form-group">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -29,17 +28,20 @@
             <input type="password" id="confirm_password" name="confirm_password" required>
         </div>
         <div class="form-group">
-         <label for="username">Address:</label>
-         <input type="text" id="Address" name="Address" required>
-     </div>
+            <label for="address">Address:</label> <!-- Error: Changed 'username' to 'address' -->
+            <input type="text" id="address" name="address" required>
+        </div>
         <div class="form-group">
-            <input type="submit" value="Register">
+            <button class="Butt" type="submit" id="Hit">Register</button>
         </div>
          <div class="form-group">
-            <button>Cancel</button>
+            <button type="button"><a href="index.php">Cancel</a></button>
       </div>
     </form>
 </div>
 
 </body>
+
+<script type="text/javascript" src="JS/ajaxrequest.js"></script>
+
 </html>

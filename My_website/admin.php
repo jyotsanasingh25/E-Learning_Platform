@@ -19,7 +19,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-image:url("admin.png");
+        background-image:url("IMAGE_FOLDER/admin.png");
         background-size:cover;
     }
 
