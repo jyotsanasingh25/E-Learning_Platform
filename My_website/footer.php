@@ -87,6 +87,9 @@
     <script type="text/javascript" src="JS/bootstrap.min.js"></script>
     <script src="JS/jquery.min.js"></script>
     <script src="JS/popper.min.js"></script>
+
+    <!-- student ajax call js -->
+    <script type="text/javascript" src="JS/ajaxrequest.js"></script>
     
     
     
