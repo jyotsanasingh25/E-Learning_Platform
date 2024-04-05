@@ -13,3 +13,6 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     console.log(stuCpass);
     console.log(stuaddress);
 });
+
+
+//Ajax call for student login verfication

@@ -1,3 +1,7 @@
+<?php
+require_once("adminconnect.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,13 +84,15 @@
 
 <div class="login-box">
     <h2>Admin Login</h2>
-    <form action="#" method="post">
+    <form action="adminconnect.php" method="post">
         <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="password" placeholder="Password" required>
         <input type="submit" value="Login">
     </form>
-    <p>Don't have an account? <a href="#">Sign Up</a></p>
+    <p>Don't have an account? <a href="registration.php">Sign Up</a></p>
 </div>
 
 </body>
 </html>
+
+
