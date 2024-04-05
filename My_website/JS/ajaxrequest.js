@@ -7,22 +7,11 @@
 //     var stuCpass = document.getElementById("confirm_password").value;
 //     var stuaddress = document.getElementById("address").value;
 
-//     // Ensure jQuery library is included before using $.ajax()
+    console.log(stuname);
+    console.log(stuemail);
+    console.log(stupass);
+    console.log(stuCpass);
+    console.log(stuaddress);
 
-//     $ajax({
-//         url:'Student/addstudent.php',
-//         method:'POST',
-//         data:{
-//             stuSingup:"stusignup",
-//             stuName: stuname,
-//             stuEmail: stuemail,
-//             stuPass: stupass,
-//             stuC_Pass: stuCpass,
-//             stuAddress: stuaddress,
-//         },
 
-//         success:function(data){
-//             console.log(data);
-//         }
-//     });
-// });
+//Ajax call for student login verfication
