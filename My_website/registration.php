@@ -10,7 +10,7 @@
 
 <div class="container">
     <h2>Registration</h2>
-    <form id="registrationForm">
+    <form action="DBconnection.php" method="post">
         <div class="form-group">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -42,6 +42,6 @@
 
 </body>
 
-<script type="text/javascript" src="JS/ajaxrequest.js"></script>
+<!-- <script type="text/javascript" src="JS/ajaxrequest.js"></script> -->
 
 </html>
