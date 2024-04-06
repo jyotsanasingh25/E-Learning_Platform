@@ -32,7 +32,7 @@
             <input type="text" id="address" name="address" required>
         </div>
         <div class="form-group">
-            <button class="Butt" type="submit" id="Hit">Register</button>
+            <button class="Butt" type="submit" id="Hit" onclick="openPoppup()">Register</button>
         </div>
          <div class="form-group">
             <button type="button"><a href="index.php">Cancel</a></button>
