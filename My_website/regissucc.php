@@ -8,7 +8,6 @@
 </head>
     <body>
         <div class="container">
-        <a href="index.php"><button class="btn">Submit</button></a>
            <div class="popup" id="Poppup">
                 <img src="IMAGE_FOLDER/tick2.png" alt="">
                 <h2>Thank You!</h2>
@@ -17,6 +16,7 @@
             </div> 
         </div>
     </body>
-    <script type="text/javascript" src="JS/regissucc.js"></script>
+    
+    <!-- <script type="text/javascript" src="JS/regissucc.js"></script> -->
 
 </html>

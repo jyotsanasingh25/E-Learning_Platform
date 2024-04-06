@@ -14,7 +14,7 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
         if ($stmt === false) {
             die("Error in preparing statement: " . $conn->error);
         }
-
+    
 
         $stmt->bind_param("ss", $User , $password);
         if ($stmt->execute()) {

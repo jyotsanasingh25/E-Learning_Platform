@@ -28,20 +28,20 @@
             <input type="password" id="confirm_password" name="confirm_password" required>
         </div>
         <div class="form-group">
-            <label for="address">Address:</label> <!-- Error: Changed 'username' to 'address' -->
+            <label for="address">Address:</label>
             <input type="text" id="address" name="address" required>
         </div>
         <div class="form-group">
-            <button class="Butt" type="submit" id="Hit" onclick="openPoppup()">Register</button>
+            <a href="regissucc.php"><button class="Butt" type="submit" id="Hit">Register</button></a>
         </div>
          <div class="form-group">
             <button type="button"><a href="index.php">Cancel</a></button>
-      </div>
+        </div>
     </form>
 </div>
 
 </body>
 
-<!-- <script type="text/javascript" src="JS/ajaxrequest.js"></script> -->
+<script type="text/javascript" src="JS/regissucc.js"></script>
 
 </html>

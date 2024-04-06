@@ -22,7 +22,8 @@
         // Bind parameters and execute the statement
         $stmt->bind_param("sssss", $stuname, $stuemail, $stuPass, $stuC_Pass, $stuAddress);
         if ($stmt->execute()) {
-            echo "Registration Successful!";
+                include('./regissucc.php');
+                
         } else {
             echo "Error: " . $stmt->error;
         }
