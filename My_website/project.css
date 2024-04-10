@@ -133,7 +133,7 @@ html {
 
 .navbar a:hover {
     transition: all .3s linear;
-    color: blue;
+    color: white;
     font-size: 2rem;
     /*for header word size*/
     text-decoration: double underline;
