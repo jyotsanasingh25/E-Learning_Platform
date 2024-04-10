@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Admin Login</title>
-<style>
     /* Reset CSS */
     * {
         margin: 0;
@@ -19,7 +12,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-image:url("IMAGE_FOLDER/admin.png");
+        background-image:url("admin.png");
         background-size:cover;
     }
 
@@ -74,19 +67,37 @@
     .login-box p a:hover {
         text-decoration: underline;
     }
-</style>
-</head>
-<body>
 
-<div class="login-box">
-    <h2>Admin Login</h2>
-    <form action="#" method="post">
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="submit" value="Login">
-    </form>
-    <p>Don't have an account? <a href="#">Sign Up</a></p>
-</div>
+    .login-box button {
+        font-weight: bold;
+    }
 
-</body>
-</html>
+    .login-box  button{
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+    .login-box  .Butt{
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .login-box  button {
+        background-color: #48a019;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .login-box  button:hover {
+        background-color: #b94945;
+    }
+
+    .login-box  .Butt:hover{
+        background-color:green;
+    }
+

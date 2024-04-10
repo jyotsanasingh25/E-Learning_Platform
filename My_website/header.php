@@ -59,7 +59,7 @@
             <a href="#Logout">
                 <underline>Logout</underline>
             </a>
-            <a href="#Login">
+            <a href="login.php">
                 <underline>Login</underline>
             </a>
              <a href="registration.php">
