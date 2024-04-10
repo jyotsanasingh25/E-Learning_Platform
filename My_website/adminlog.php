@@ -11,7 +11,7 @@
 
 <div class="login-box">
     <h2>Admin Login <i class="fa-solid fa-lock"></i> </h2>
-    <form action="adminconnect.php"method="post">
+    <form action="admin_login_process.php" method="post" class="login-form">
         <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="password" placeholder="Password" required>
         <div class="form-group">
