@@ -107,13 +107,8 @@ html {
 .navbar a:hover {
     transition: all .3s linear;
     color: rgb(18, 17, 16);
-    font-size: 2rem;
     /*for header word size*/
     text-decoration: underline;
-    font-size: bold;
-    position: absolute;
-    font-weight: 8px;
-    position: relative;
     max-width: max-content;
     width: 100%;
     height: .5rem;
