@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Successfull</title>
-    <link rel="stylesheet" href="CSS/regissucc.css">
+    <link rel="stylesheet" href="../CSS/regissucc.css">
 </head>
     <body>
         <div class="container">
            <div class="popup" id="Poppup">
-                <img src="IMAGE_FOLDER/tick2.png" alt="">
+                <img src="../IMAGE_FOLDER/tick2.png" alt="">
                 <h2>Thank You!</h2>
                 <p>Your details has been successfully submitted. Thanks!</p>
-                <a href="index.php"><button class="btn2" onclick="closePoppup()">Ok</button></a>
+                <a href="../index.php"><button class="btn2" onclick="closePoppup()">Ok</button></a>
             </div> 
         </div>
     </body>
