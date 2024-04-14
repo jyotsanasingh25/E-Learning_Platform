@@ -42,16 +42,16 @@
                 Home
             </a>
 
-            <a href="courses.php">
+            <a href="User/courses.php">
             Courses
             </a>
-            <a href="paymentstatus.php">
+            <a href="User/paymentstatus.php">
                 Payment status
             </a>
             <a href="#review">
             Review
             </a>
-            <a href="#contact">
+            <a href="User/contact.php">
             Contact
             </a>
             <a href="#My profile">
@@ -60,10 +60,10 @@
             <a href="#Logout">
             Logout
             </a>
-            <a href="login.php">
+            <a href="User/login.php">
             Login
             </a>
-             <a href="registration.php">
+             <a href="User/registration.php">
             Register
             </a>
         
@@ -88,7 +88,7 @@
                     facilis atque totam Quo sequi, culpa laboriosam, id provident nulla exercitationem hic doloremque
                     accusantium numquam amet fugit dignissimos nostrum magnam! Eos facilis atque </p>
 
-                    <a href="registration.php" class="get-started-btn-container">
+                    <a href="User/registration.php" class="get-started-btn-container">
                         <button class="get-started-btn btn">Get Started!</button>
                     </a>
                 
@@ -195,7 +195,7 @@
                 <h1>Choose Your Favourite Course</h1>
                 <p>Education is our passport to the future, for tomorrow belongs only to the people who prepare for it today</p>
             </div>
-           <a href="courses.php" class="view-btn">View All </a>
+           <a href="User/courses.php" class="view-btn">View All </a>
         </header>
         <!-----courses section ends------------>
        

@@ -97,11 +97,11 @@ html {
     padding-right: .5rem;
 } */
 
-/* .header .navbar a {
+.header .navbar a {
     font-size: 1.7rem;
     color: black;
     margin: 0 1rem;
-} */
+}
 
 .navbar a:hover {
     transition: all .3s linear;
