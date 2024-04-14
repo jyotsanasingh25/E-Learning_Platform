@@ -1,9 +1,9 @@
 <!-- header section start -->
 <?php
-include('./header.php');
+include('./User/header.php');
 
 ?>
-<!-- header section ends -->\
+<!-- header section ends -->
 
     <!----banner section starts-->
     <section>
@@ -628,7 +628,7 @@ include('./header.php');
     <!-- footer section starts -->
 
     <?php
-    include('./footer.php');
+    include('./User/footer.php');
 
     ?>
     <!--footer section ends -->

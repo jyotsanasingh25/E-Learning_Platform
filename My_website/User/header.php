@@ -41,29 +41,29 @@
                 Home
             </a>
 
-            <a href="courses.php">
-                <underline>Courses</underline>
+            <a href="User/courses.php">
+            Courses
             </a>
-            <a href="paymentstatus.php">
+            <a href="User/paymentstatus.php">
                 Payment status
             </a>
             <a href="#review">
-                <underline>Review</underline>
+            Review
             </a>
-            <a href="#contact">
-                <underline>Contact</underline>
+            <a href="User/contact.php">
+            Contact
             </a>
             <a href="#My profile">
-                <underline>My profile</underline>
+            My profile
             </a>
             <a href="#Logout">
-                <underline>Logout</underline>
+            Logout
             </a>
-            <a href="login.php">
-                <underline>Login</underline>
+            <a href="User/login.php">
+            Login
             </a>
-             <a href="registration.php">
-                <underline>Register</underline>
+             <a href="User/registration.php">
+            Register
             </a>
         
         </nav>
