@@ -41,16 +41,16 @@
                 Home
             </a>
 
-            <a href="courses.php">
+            <a href="User/courses.php">
             Courses
             </a>
-            <a href="paymentstatus.php">
+            <a href="User/paymentstatus.php">
                 Payment status
             </a>
             <a href="#review">
             Review
             </a>
-            <a href="#contact">
+            <a href="User/contact.php">
             Contact
             </a>
             <a href="#My profile">
@@ -59,10 +59,10 @@
             <a href="#Logout">
             Logout
             </a>
-            <a href="login.php">
+            <a href="User/login.php">
             Login
             </a>
-             <a href="registration.php">
+             <a href="User/registration.php">
             Register
             </a>
         

@@ -3,25 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login Page</title>
-<link rel="stylesheet" href="CSS/login.css">
+<title>Admin Login</title>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<div class="container">
-    <h2>Login</h2>
-    <form action="loginSetup.php" method="post">
+<div class="login-container">
+    <form action="admin_login_process.php" method="post" class="login-form">
+        <h2>Admin Login</h2>
         <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
         </div>
         <div class="form-group">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
         </div>
-        <div class="form-group">
-            <button class="Butt" type="submit">Login</button>
-        </div>
+        <button type="submit">Login</button>
     </form>
 </div>
 

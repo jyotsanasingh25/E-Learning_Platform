@@ -700,7 +700,7 @@
     <!-- footer section starts -->
 
     <?php
-    include('./footer.php');
+    include('./User/footer.php');
 
     ?>
     <!--footer section ends -->

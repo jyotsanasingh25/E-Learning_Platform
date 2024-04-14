@@ -63,7 +63,7 @@
         </div>
         <div class="copy-rights">
             <p>Created By <b>Learning with Me <-JPS-></b></p>
-            <a href="adminlog.php">Admin login</a> 
+            <a href="Admin/adminlog.php">Admin login</a> 
         </div>
 
     </section>
