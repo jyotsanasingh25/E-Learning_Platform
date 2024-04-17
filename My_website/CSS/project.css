@@ -107,6 +107,7 @@ html {
     transition: all .3s linear;
     color: rgb(18, 17, 16);
     /*for header word size*/
+    font-size: 1.8rem;
     text-decoration: underline;
     max-width: max-content;
     width: 100%;
