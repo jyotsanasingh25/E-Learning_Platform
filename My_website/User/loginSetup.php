@@ -22,7 +22,7 @@ if ($conn->connect_error) {
         $row = $result->fetch_assoc();
         $_SESSION['user_id'] = $row['Stu_ID'];
         $_SESSION['username'] = $row['Stu_Name'];
-        header("Location: ../index.php");
+        header("Location: ../index1.php");
         exit();
     } else {
         // No user found, redirect back to login page with error message

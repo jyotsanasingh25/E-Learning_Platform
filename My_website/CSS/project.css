@@ -97,20 +97,19 @@ html {
     padding-right: .5rem;
 } */
 
-.header .navbar a {
+.header .navbar a{
     font-size: 1.7rem;
     color: black;
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
-.navbar a:hover {
+.navbar a:hover{
     transition: all .3s linear;
-    color: rgb(18, 17, 16);
+    color: red;
     /*for header word size*/
     text-decoration: underline;
     max-width: max-content;
     width: 100%;
-    
     border-block: .1rem solid var(blue);
     opacity: rgba(0, 0, 0, 0.1rem);
     content: '';
@@ -120,7 +119,7 @@ html {
 }
 
 
-.menu-btn {
+.menu-btn{
     min-width: 30px;
     width: 30px;
     height: 30px;
@@ -133,7 +132,7 @@ html {
     /*that icon beside get started*/
 }
 
-.menu-btn span {
+.menu-btn span{
     position: relative;
     display: block;
     width: 100%;
@@ -144,7 +143,7 @@ html {
 }
 
 .menu-btn span::before,
-.menu-btn span::after {
+.menu-btn span::after{
     position: absolute;
     content: '';
     top: 0;
