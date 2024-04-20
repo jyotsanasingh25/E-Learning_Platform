@@ -35,7 +35,7 @@
             <a href="regissucc.php"><button class="Butt" type="submit" id="Hit">Register</button></a>
         </div>
          <div class="form-group">
-            <button type="button"><a href="index.php">Cancel</a></button>
+         <a href="../index.php"><button type="button">Cancel</button></a>
         </div>
     </form>
 </div>

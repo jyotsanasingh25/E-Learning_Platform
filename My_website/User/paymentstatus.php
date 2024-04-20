@@ -38,7 +38,7 @@
         <a href="#" class="logo">𝕷𝖊𝖆𝖗𝖓𝖎𝖓𝖌 𝖜𝖎𝖙𝖍 𝖒𝖊!</a>
 
         <nav class="navbar">
-            <a href="index.php">
+            <a href="../index.php">
                 Home
             </a>
 
