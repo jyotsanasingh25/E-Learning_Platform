@@ -5,7 +5,7 @@
     $stuPass = $_POST['password'];
     $stuC_Pass = $_POST['confirm_password'];
     $stuAddress = $_POST['address'];
-
+    
     // Establish database connection
     $conn = new mysqli('localhost', 'root', '', 'lms_db');
     if ($conn->connect_error) {
