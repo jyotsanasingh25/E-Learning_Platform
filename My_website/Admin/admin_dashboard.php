@@ -39,7 +39,7 @@ include('./adminheader.php');
                                 </div>
                             </div>
                         </div> I
-                    </div>
+                    </div> 
                     <div class="mx-5 mt-5 text-center">
                     <!--Table-->
                     <p class=" bg-dark text-white p-2">Course Ordered</p>
