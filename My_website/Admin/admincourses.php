@@ -32,7 +32,7 @@ include('./adminheader.php');
                 class="btn btn-secondary"
                 name="delete"
                 value="Delete"
-                <i class="far fa-trash-alt">Delete</i>
+                <i class="far fa-trash-alt"> Delete</i>
                 </button>
             </td>
         </tr>
@@ -42,7 +42,7 @@ include('./adminheader.php');
 </div>
     <!-- div Row close from header -->
      <div>
-        <a class="btn btn-danger box" style="font-size: 25px;" href="#"
+        <a class="btn btn-danger box" style="font-size: 25px;" href="Addcourses.php"
             ><i class="fas fa-plus fa-2x"></i
             >+</a>
         </div> 
