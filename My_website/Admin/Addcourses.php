@@ -21,11 +21,13 @@ include('./adminheader.php');
       height: 100vh;
     }
     .container {
+      /* margin-top:20rem; */
       background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
       padding-top: 50px;
-      max-width: 700px;
+      max-width: 600px;
+      max-height:80vh;
       width: 100%;
       text-align: center;
     }
@@ -43,9 +45,12 @@ include('./adminheader.php');
       border-radius: 4px;
       outline: none;
     }
-    textarea {
+    
+    textarea 
+    {
       height: 100px;
     }
+
     input[type="submit"] {
       background-color: #4CAF50;
       color: white;
@@ -79,16 +84,23 @@ include('./adminheader.php');
     <label for="title">Course Title:</label>
     <input type="text" id="title" name="title" required>
 
-    <label for="description">Description:</label>
-    <textarea id="description" name="description" rows="4" required></textarea>
+    <label for="description">Course Description:</label>
+    <textarea id="text" name="description" rows="4" required></textarea>
 
-    <label for="instructor">Instructor:</label>
-    <input type="text" id="instructor" name="instructor" required>
+    <label for="instructor">Author</label>
+    <input type="text" id="author" name="author" required>
 
-    <label for="duration">Duration (in hours):</label>
+    <label for="duration">Course Duration (in hours):</label>
     <input type="number" id="duration" name="duration" required>
 
-    <input type="submit" value="Submit">
+    <label for="original">Course Original price</label>
+    <input type="text" id="original" name="original" required>
+
+    <label for="Selling">Selling price</label>
+    <input type="text" id="Selling" name="Selling" required>
+
+    <a href=""> <input type="submit" value="Submit"></a>
+
   </form>
 </div>
 
