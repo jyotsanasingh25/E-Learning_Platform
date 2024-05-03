@@ -10,69 +10,69 @@ include('./adminheader.php');
   <title>Add Course</title>
   <style>
     /* Styling for the form */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f1f1f1;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      /* margin-top:20rem; */
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-      padding-top: 50px;
-      max-width: 600px;
-      max-height:80vh;
-      width: 100%;
-      text-align: center;
-    }
-    h2 {
-      color: #333;
-    }
-    input[type="text"],
-    input[type="number"],
-    textarea {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      outline: none;
-    }
-    
-    textarea 
-    {
-      height: 100px;
-    }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Changed height to min-height for better responsiveness */
+}
 
-    input[type="submit"] {
-      background-color: #4CAF50;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      width: 100%;
-      font-size: 16px;
-      transition: background-color 0.3s;
-    }
-    input[type="submit"]:hover {
-      background-color: #45a049;
-    }
-    label {
-      color: #333;
-      font-weight: bold;
-      margin-bottom: 6px;
-      display: block;
-      text-align: left;
-    }
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  padding: 50px 20px; /* Adjusted padding for better spacing */
+  max-width: 600px;
+  width: 100%;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px; /* Added margin-bottom for better separation */
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  resize: vertical; /* Added resize property for textarea */
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+label {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+  text-align: left;
+}
+
   </style>
 </head>
 <body>
@@ -98,6 +98,7 @@ include('./adminheader.php');
 
     <label for="Selling">Selling price</label>
     <input type="text" id="Selling" name="Selling" required>
+    
 
     <a href=""> <input type="submit" value="Submit"></a>
 
