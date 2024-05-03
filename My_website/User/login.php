@@ -14,16 +14,27 @@
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
+           
+            <span style="color:red;">
+                <?php 
+                    session_start();
+                    
+                    echo $_SESSION['emailerror'];  
+                ?>
+            </span>
+        
         </div>
         <div class="form-group">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
         </div>
         <div class="form-group">
-            <button class="Butt" type="submit">Login</button>
+            <button class="Butt" type="submit" >Login</button>
         </div>
     </form>
 </div>
+
+
 
 </body>
 </html>

@@ -5,11 +5,24 @@ session_start();
 $stuemail = $_POST['email'];
 $stuPass = $_POST['password'];
 
+
 // Establish database connection
 $conn = new mysqli('localhost', 'root', '', 'lms_db');
-if ($conn->connect_error) {
+if ($conn->connect_error) 
+{
     die("Connection failed: " . $conn->connect_error);
-} else {
+} 
+
+// if(empty(email))
+//     {
+//         session_start();
+//         $emailerror;
+//         $_SESSION['emailerror'] = "Email is required";
+//     } 
+    
+else 
+{
+    
     // Prepare and execute SQL query to fetch user with the given email and password
     $stmt = $conn->prepare("SELECT * FROM student WHERE Stu_email = ? AND Stu_Pass = ?");
     $stmt->bind_param("ss", $stuemail, $stuPass);
@@ -17,6 +30,7 @@ if ($conn->connect_error) {
     $result = $stmt->get_result();
 
     // Check if there's a matching user
+   
     if ($result->num_rows == 1) {
         // User found, set session variables and redirect to dashboard
         $row = $result->fetch_assoc();

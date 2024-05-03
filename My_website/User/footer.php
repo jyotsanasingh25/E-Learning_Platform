@@ -56,7 +56,10 @@
                 <div class="col-contents">
                     <form class="newsletter">
                         <input type="email" placeholder="Your Email :-">
-                     <button class="newsletter-btn btn" type="submit">Subsribe</button>
+                           
+                        <a href="#" class="newsletter-btn">
+                            <button class="newsletter-btn">Get Started!</button>
+                            </a>
                     </form> 
                 </div>
             </div>
