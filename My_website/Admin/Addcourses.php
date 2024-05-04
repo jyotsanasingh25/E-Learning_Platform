@@ -62,6 +62,19 @@ input[type="submit"] {
   transition: background-color 0.3s;
 }
 
+input[type="Close"] {
+  background-color: red;
+  color: white;
+  padding: 10px 0;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
 input[type="submit"]:hover {
   background-color: #45a049;
 }
@@ -82,6 +95,10 @@ input[type="Close"]:hover {
   background-color: #8b0000;
 }
 
+input[type="Close"]:hover {
+  background-color: red;
+}
+
 label {
   color: #333;
   font-weight: bold;
@@ -97,7 +114,10 @@ label {
 <div class="container">
   <h2>Add Course</h2>
 
-  <form action="/submit_course" method="POST">
+  <form action="AdminDBconnection.php" method="POST" enctype="multipart/form-data">
+    <label for="title">Course Id:</label>
+    <input type="text" id="id" name="id" required>
+
     <label for="title">Course Title:</label>
     <input type="text" id="title" name="title" required>
 
@@ -115,9 +135,13 @@ label {
 
     <label for="Selling">Selling price</label>
     <input type="text" id="Selling" name="Selling" required>
+
+    <label for="image">Upload image</label>
+    <input type="file" id="Image" name="Image">
     
 
     <a href=""> <input type="submit" value="Submit"></a>
+
     <a href="admin_dashboard.php"> <input type="Close" value="Close"></a>
 
   </form>
