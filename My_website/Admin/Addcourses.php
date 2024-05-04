@@ -22,16 +22,17 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #225470;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
   padding: 50px 20px; /* Adjusted padding for better spacing */
   max-width: 600px;
   width: 100%;
+  margin-top:30px;
 }
 
 h2 {
-  color: #333;
+  color: #ffff;
   margin-bottom: 20px; /* Added margin-bottom for better separation */
 }
 
@@ -76,6 +77,22 @@ input[type="Close"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+input[type="Close"] {
+  background-color: red;
+  color: white;
+  padding: 10px 260px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+input[type="Close"]:hover {
+  background-color: #8b0000;
 }
 
 input[type="Close"]:hover {
@@ -124,8 +141,8 @@ label {
     
 
     <a href=""> <input type="submit" value="Submit"></a>
-    <a href="admincourses.php"><input type="Close" value="Close"></a>
 
+    <a href="admin_dashboard.php"> <input type="Close" value="Close"></a>
 
   </form>
 </div>

@@ -19,10 +19,13 @@
     <style>
         .sidebar-sticky
         {
-            background-color:#C0C0C0; 
+            background-color:; 
             
         }
-        
+        .sidebar-sticky .nav .nav-item:hover{
+            background-color:#225470;
+            color: white;
+        }
     </style>
 
 </head>

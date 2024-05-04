@@ -3,8 +3,8 @@ include('./adminheader.php');
 ?>
 <?php
 $conn = new mysqli('localhost', 'root', '', 'lms_db');
-
 ?>
+
 <div class="col-sm-9 mt-5">
 <!--Table-->
     <p class="bg-dark text-white p-2">List of Courses</p>
@@ -38,6 +38,7 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
                 value="View"
                 >
                 <i class="fa fa-pen">View</i>
+
             </button>
                 <button
                 type="submit"
