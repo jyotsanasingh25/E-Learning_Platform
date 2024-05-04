@@ -1,10 +1,20 @@
 <?php
 include('./adminheader.php');
 ?>
+<?php
+$conn = new mysqli('localhost', 'root', '', 'lms_db');
 
+?>
 <div class="col-sm-9 mt-5">
 <!--Table-->
     <p class="bg-dark text-white p-2">List of Courses</p>
+    <?php
+    $sql = "SELECT * FROM add_courses";
+    $result = $conn->query($sql);
+    if($result->num_rows > 0)
+    {
+    
+    ?>
         <table class="table">   
         <thead>
             <tr>
@@ -15,16 +25,18 @@ include('./adminheader.php');
             </tr>
         </thead>
         <tbody>
-        <tr>
-            <th scope="row">22</th>
-            <td>Learn Guitar</td>
-            <td>GeekyShows</td>
-            <td>
-            <button
+       <?php while($row = $result->fetch_assoc()){
+        echo '<tr>';
+           echo '<th scope="row">'.$row['Course_id'].'</th>';
+            echo '<td>'.$row['Course_name'].'</td>';
+            echo '<td>'.$row['Author'].'</td>';
+            echo '<td>';
+             echo' <button
                 type="submit"
                 class="btn btn-info mr-3"
                 name="view"
                 value="View"
+                >
                 <i class="fa fa-pen">View</i>
             </button>
                 <button
@@ -32,12 +44,17 @@ include('./adminheader.php');
                 class="btn btn-secondary"
                 name="delete"
                 value="Delete"
+                >
                 <i class="far fa-trash-alt"> Delete</i>
                 </button>
             </td>
-        </tr>
+        </tr>';
+         } ?>
     </tbody>
 </table>
+    <?php } else{
+        echo "0 Result";
+    }?>
 </div>
 </div>
     <!-- div Row close from header -->
