@@ -2,7 +2,7 @@
 include('./adminheader.php');
 ?>
 
-<div class="col-sm-9 mt-5">
+<div class="col-sm-9 mt-5" style:"margin-left:20px;">
 <!--Table-->
     <p class="bg-dark text-white p-2">List of Courses</p>
         <table class="table">   
@@ -25,7 +25,7 @@ include('./adminheader.php');
                 class="btn btn-info mr-3"
                 name="view"
                 value="View"
-                <i class="fa fa-pen">View</i>
+                <i class="fa fa-pen">Edit</i>
             </button>
                 <button
                 type="submit"
