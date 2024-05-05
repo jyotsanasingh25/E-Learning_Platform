@@ -7,9 +7,9 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
 
 <div class="col-sm-9 mt-5">
 <!--Table-->
-    <p class="bg-dark text-white p-2">List of Courses</p>
+    <p class="bg-dark text-white p-2">List of Students</p>
     <?php
-    $sql = "SELECT * FROM add_courses";
+    $sql = "SELECT * FROM students";
     $result = $conn->query($sql);
     if($result->num_rows > 0)
     {
@@ -18,18 +18,18 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
         <table class="table">   
         <thead>
             <tr>
-            <th scope="col">Course ID</th>
+            <th scope="col">Student ID</th>
             <th scope="col">Name</th>
-            <th scope="col">Author</th>
+            <th scope="col">Email</th>
             <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody>
        <?php while($row = $result->fetch_assoc()){
         echo '<tr>';
-           echo '<th scope="row">'.$row['Course_id'].'</th>';
-            echo '<td>'.$row['Course_name'].'</td>';
-            echo '<td>'.$row['Author'].'</td>';
+           echo '<th scope="row">'.$row['Student_id'].'</th>';
+            echo '<td>'.$row['Student_name'].'</td>';
+            echo '<td>'.$row['Email'].'</td>';
             echo '<td>';
              echo' <button
                 type="submit"
