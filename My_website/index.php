@@ -59,9 +59,9 @@
             Contact
             </a>
             
-            <a onclick="Myprofile()" href="User/login.php">
+            <!-- <a onclick="Myprofile()" href="User/login.php">
             My Profile
-            </a>
+            </a> -->
 
             <script>
                 function Myprofile()
