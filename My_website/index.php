@@ -43,7 +43,7 @@
                 Home
             </a>
 
-            <a href="User/courses.php">
+            <a href="#1">
             Course
             </a>
 
@@ -51,7 +51,7 @@
             Payment-status
             </a>
 
-            <a href="#review">
+            <a href="#2">
             Review
             </a>
 
@@ -198,7 +198,7 @@
     <!-----courses section starts------------>
 
     <section class="courses" id="courses">
-        <header class="section-header">
+        <header class="section-header" id="1">
             <div class="header-text">
                 <h1>Choose Your Favourite Course</h1>
                 <p>Education is our passport to the future, for tomorrow belongs only to the people who prepare for it today</p>
@@ -208,7 +208,7 @@
         <!-----courses section ends------------>
        
         <!-----courses contents starts------------>
-        <div class="course-contents">
+        <div class="course-contents" >
             <div class="course-card">
                 <img src="IMAGE_FOLDER/web development.jpg" alt="">
                 <div class="category">
@@ -231,7 +231,7 @@
             </div>
 
             <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-2.jpg" alt="">
+                <img src="IMAGE_FOLDER/python.png" alt="">
                 <div class="category">
                     <div class="subjects">
                         <h3>Python Programming</h3>
@@ -253,10 +253,10 @@
             </div>
 
             <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-4.webp" alt="">
+                <img src="IMAGE_FOLDER/DSA.png" alt="">
                 <div class="category">
                     <div class="subjects">
-                        <h3>DSA with C/C++</h3>
+                        <h3>DSA with /C++</h3>
                     </div>
                     <img src="IMAGE_FOLDER/tea 3.jpg" alt="">
                 </div>
@@ -275,7 +275,7 @@
 
 
             <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-5.jpg" alt="">
+                <img src="IMAGE_FOLDER/java.png" alt="">
                 <div class="category">
                     <div class="subjects">
                         <h3>Java with OOPs</h3>
@@ -295,7 +295,7 @@
             </div>
 
             <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-6.jpg" alt="">
+                <img src="IMAGE_FOLDER/fullstack.png" alt="">
                 <div class="category">
                     <div class="subjects">
                         <h3>Full Stack Development</h3>
@@ -315,7 +315,7 @@
             </div>
 
             <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-7.jpg" alt="">
+                <img src="IMAGE_FOLDER/ml.png" alt="">
                 <div class="category">
                     <div class="subjects">
                         <h3>Machine laerning </h3>
@@ -334,67 +334,7 @@
                  </div>
             </div>
 
-
-            <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-8.jpg" alt="">
-                <div class="category">
-                    <div class="subjects">
-                        <h3>Machine laerning </h3>
-                    </div>
-                    <img src="IMAGE_FOLDER/tea 1.webp" alt="">
-                </div>
-                <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
-                <div class="course-desc">
-                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>Rs</b>499</span>
-                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
-                 </div>
-            </div>
-
-            <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-9.jpg" alt="">
-                <div class="category">
-                    <div class="subjects">
-                        <h3>Machine laerning </h3>
-                    </div>
-                    <img src="IMAGE_FOLDER/tea 5.jpg" alt="">
-                </div>
-                <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
-                <div class="course-desc">
-                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>Rs</b>499</span>
-                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
-                </div>
-            </div>
-
-            <div class="course-card">
-                <img src="IMAGE_FOLDER/learn-10.jpg" alt="">
-                <div class="category">
-                    <div class="subjects">
-                        <h3>Machine laerning </h3>
-                    </div>
-                    <img src="IMAGE_FOLDER/tea 6.jpeg" alt="">
-                </div>
-                <h2 class="course-title">Learn Figma: This is some dummy text demonistrating the title.</h2>
-                <div class="course-desc">
-                    <span> <i class="fa-solid fa-video"></i> 10 Videos</span>
-                    <span><i class="fa-solid fa-users"></i> 200+ Students</span>
-                </div>
-                <div class="course-ratings">
-                    <span> 4.9 <i class="fa-solid fa-star"></i></span>
-                    <span><b>Rs</b>499</span>
-                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
-                </div>
-            </div>
-        </div>
+<!--  -->
     </section>
     <!-----courses contents ends------------>
 
@@ -547,7 +487,7 @@
 
 
     <!-- review section starts -->
-    <div class="testimonials">
+    <div class="testimonials" id="2">
         <div class="inner">
             <h1>My Reviews</h1>
             <div class="border"></div>
@@ -662,12 +602,10 @@
                     <h3>Give your Feedback</h3>
                 </div>
                 <div class="col-contents">
-                    <form class="newsletter" action="">
-                        <input type="text" placeholder="Enter the name :- ">
-                            <textarea name="message"  rows="7" cols="21"></textarea> <br>
-                            <input type="file" name="img" class="img" value="choose img"><br> 
-                         <a href="#"><button class="sub-btn btn">Submit</button></a>
-                    </form> 
+                    <form class="newsletter" action="">        
+                     </form>
+                     <a href="../My_website/User/studentFB.php"><button class="sub-btn btn">Click here</button></a>
+               
                 </div>
             </div>
         </div>
