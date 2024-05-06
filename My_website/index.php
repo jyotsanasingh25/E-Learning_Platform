@@ -233,7 +233,7 @@
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                    
                     <span><b>Rs</b>499</span>
-                   <a href="coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
+                   <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
                 </div>
             </div>
 
@@ -253,7 +253,8 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
+               
 
                 </div>
             </div>
@@ -275,8 +276,8 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
-                </div>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
+                 </div>
             </div>
 
 
@@ -296,8 +297,8 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>200</span>
-                    <button class="Enroll-btn btn">Enroll</button>
-                </div>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
+                  </div>
             </div>
 
             <div class="course-card">
@@ -316,8 +317,8 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
-                </div>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
+                     </div>
             </div>
 
             <div class="course-card">
@@ -336,8 +337,8 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
-                </div>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
+                 </div>
             </div>
 
 
@@ -357,8 +358,8 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
-                </div>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
+                 </div>
             </div>
 
             <div class="course-card">
@@ -377,7 +378,7 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
                 </div>
             </div>
 
@@ -397,7 +398,7 @@
                 <div class="course-ratings">
                     <span> 4.9 <i class="fa-solid fa-star"></i></span>
                     <span><b>Rs</b>499</span>
-                    <button class="Enroll-btn btn">Enroll</button>
+                    <a href="./User/coursedetails.php"><button class="Enroll-btn btn">Enroll</button></a>
                 </div>
             </div>
         </div>
@@ -546,7 +547,6 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore non nobis, vero, ab minus a natus
                 necessitatibus tempora molestiae facere, aperiam quisquam id maxime vel modi qui? Perspiciatis,
                 provident laboriosam.</p>
-            <button class="teacher-btn btn">Your details</button>
         </div>
     </section>
 
@@ -577,108 +577,7 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="IMAGE_FOLDER/person 2.webp" alt="">
-                        <div class="name">Weldom Cocks</div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex nisi minus incidunt
-                            deleniti labore praesentium harum quis magni delectus sint, veritatis vero excepturi
-                            reiciendis natus at necessitatibus alias cumque.</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="IMAGE_FOLDER/person 3.png" alt="">
-                        <div class="name">Anders Shaak</div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex nisi minus incidunt
-                            deleniti labore praesentium harum quis magni delectus sint, veritatis vero excepturi
-                            reiciendis natus at necessitatibus alias cumque.</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="IMAGE_FOLDER/person 4.jpg" alt="">
-                        <div class="name">Chase Laith</div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex nisi minus incidunt
-                            deleniti labore praesentium harum quis magni delectus sint, veritatis vero excepturi
-                            reiciendis natus at necessitatibus alias cumque.</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="IMAGE_FOLDER/person 5.webp" alt="">
-                        <div class="name">Cameron John</div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex nisi minus incidunt
-                            deleniti labore praesentium harum quis magni delectus sint, veritatis vero excepturi
-                            reiciendis natus at necessitatibus alias cumque.</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="IMAGE_FOLDER/person 6.png" alt="">
-                        <div class="name">Calder Sume</div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex nisi minus incidunt
-                            deleniti labore praesentium harum quis magni delectus sint, veritatis vero excepturi
-                            reiciendis natus at necessitatibus alias cumque.</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="IMAGE_FOLDER/person 7.jpeg" alt="">
-                        <div class="name">La Vergne</div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex nisi minus incidunt
-                            deleniti labore praesentium harum quis magni delectus sint, veritatis vero excepturi
-                            reiciendis natus at necessitatibus alias cumque.</p>
-                    </div>
-                </div>
-
+                
                 <div class="col">
                     <div class="testimonial">
                         <img src="IMAGE_FOLDER/person 8.webp" alt="">
@@ -767,12 +666,14 @@
             </div>
             <div class="footer-col footer-col-4">
                 <div class="col-title">
-                    <h3>Newsletter</h3>
+                    <h3>Give your Feedback</h3>
                 </div>
                 <div class="col-contents">
-                    <form class="newsletter">
-                        <input type="email" placeholder="Your Email :-">
-                     <button class="newsletter-btn btn" type="submit">Subsribe</button>
+                    <form class="newsletter" action="">
+                        <input type="text" placeholder="Enter the name :- ">
+                            <textarea name="message"  rows="7" cols="21"></textarea> <br>
+                            <input type="file" name="img" class="img" value="choose img"><br> 
+                         <a href="#"><button class="sub-btn btn">Submit</button></a>
                     </form> 
                 </div>
             </div>
