@@ -19,10 +19,13 @@
     <style>
         .sidebar-sticky
         {
-            background-color:#C0C0C0; 
+            background-color:; 
             
         }
-        
+        .sidebar-sticky .nav .nav-item:hover{
+            background-color:#225470;
+            color: white;
+        }
     </style>
 
 </head>
@@ -62,7 +65,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="students.php">
                                 <i class="fab fa-accessible-icon"></i>
                                 Student 
                                 </a>

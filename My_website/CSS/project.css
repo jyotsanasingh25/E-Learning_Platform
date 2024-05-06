@@ -98,16 +98,16 @@ html {
 } */
 
 .header .navbar a{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color: black;
     margin: 0 2rem;
 }
 
 .navbar a:hover{
     transition: all .3s linear;
-    color: red;
+    color: rgb(0, 67, 105);
     /*for header word size*/
-    font-size: 1.8rem;
+    
     text-decoration: underline;
     max-width: max-content;
     width: 100%;
@@ -116,7 +116,7 @@ html {
     content: '';
     position: sticky;
     top: calc(100% +2px);
-    transform: scaleX(0);
+    
 }
 
 

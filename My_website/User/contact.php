@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h2>Contact Us</h2>
-    <form id="contactForm">
+    <form action="contactSetup.php" method="post"     id="contactForm" >
       <div class="form-group">
         <label for="name">Your Name</label>
         <input type="text" id="name" name="name" required>
@@ -18,6 +18,11 @@
       <div class="form-group">
         <label for="email">Your Email</label>
         <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Contact no</label>
+        <input type="varchar" id="contact" name="contact" required>
       </div>
 
       <div class="form-group">
