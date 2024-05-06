@@ -58,18 +58,26 @@
             <a href="User/contact.php">
             Contact
             </a>
-            
-            <a href="#My profile">
-            Profile
-            </a>
 
-            <a href="index.php">
+            <a onclick ="Logout()" href="index.php">
             Logout
             </a>
 
-            <a href="User/login.php">
-            Login
+            <a href="#My profile">
+            My Profile
             </a>
+
+            <script>
+
+function Logout() {
+            // Implement functionality to edit profile
+            confirm("DO YOU WANT TO LOGOUT..!!");
+        }
+            </script>
+
+            <!-- <a href="User/login.php">
+            Login
+            </a> -->
 
              <!-- <a href="User/registration.php">
             Register

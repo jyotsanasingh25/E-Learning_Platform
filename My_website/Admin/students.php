@@ -9,7 +9,7 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
 <!--Table-->
     <p class="bg-dark text-white p-2">List of Students</p>
     <?php
-    $sql = "SELECT * FROM students";
+    $sql = "SELECT * FROM student";
     $result = $conn->query($sql);
     if($result->num_rows > 0)
     {
@@ -18,8 +18,8 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
         <table class="table">   
         <thead>
             <tr>
-            <th scope="col">Student ID</th>
-            <th scope="col">Name</th>
+            <th scope="col">Student NAME</th>
+            <th scope="col">ADDRESS</th>
             <th scope="col">Email</th>
             <th scope="col">Action</th>
             </tr>
@@ -27,9 +27,9 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
         <tbody>
        <?php while($row = $result->fetch_assoc()){
         echo '<tr>';
-           echo '<th scope="row">'.$row['Student_id'].'</th>';
-            echo '<td>'.$row['Student_name'].'</td>';
-            echo '<td>'.$row['Email'].'</td>';
+           echo '<th scope="row">'.$row['Stu_Name'].'</th>';
+            echo '<td>'.$row['address'].'</td>';
+            echo '<td>'.$row['Stu_email'].'</td>';
             echo '<td>';
              echo' <button
                 type="submit"
@@ -59,8 +59,3 @@ $conn = new mysqli('localhost', 'root', '', 'lms_db');
 </div>
 </div>
     <!-- div Row close from header -->
-     <div>
-        <a class="btn btn-danger box" style="font-size: 25px;" href="Addcourses.php"
-            ><i class="fas fa-plus fa-2x"></i
-            >+</a>
-        </div> 
