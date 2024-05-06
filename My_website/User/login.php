@@ -16,11 +16,7 @@
             <input type="email" id="email" name="email" required>
            
             <span style="color:red;">
-                <?php 
-                    session_start();
-                    
-                    echo $_SESSION['emailerror'];  
-                ?>
+          
             </span>
         
         </div>
@@ -29,12 +25,19 @@
             <input type="password" id="password" name="password" required>
         </div>
         <div class="form-group">
-            <button class="Butt" type="submit" >Login</button>
+            <button class="Butt" onclick= "editProfile() " type="submit" >Login</button>
         </div>
     </form>
 </div>
 
 
+
+<script>
+        function editProfile() {
+            // Implement functionality to edit profile
+            confirm("DO YOU WANT TO LOGIN...!!");
+        }
+</script>
 
 </body>
 </html>
