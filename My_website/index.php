@@ -59,9 +59,16 @@
             Contact
             </a>
             
-            <a href="#My profile">
+            <a onclick="Myprofile()" href="User/login.php">
             My Profile
             </a>
+
+            <script>
+                function Myprofile()
+                {
+                    confirm("First YOU HAVE TO LOGIN..!!")
+                }
+            </script>
 
             <!-- <a href="#Logout">
             Logout
