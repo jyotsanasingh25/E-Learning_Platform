@@ -88,17 +88,17 @@
     <div class="container">
         <div class="sidebar">
             <div class="profile-picture">
-                <img src="profile-pic.jpg" alt="Profile Picture">
+                <img src="../My_website/IMAGE_FOLDER/ai.jpg" alt="Profile Picture">
             </div>
             <div class="profile-info">
-                <h2>John Doe</h2>
+                <h2>Anuj kumar</h2>
                 <p>Email: johndoe@example.com</p>
                 <p>Education: Bachelor's Degree</p>
                 <p>Interests: Programming, Design, Photography</p>
             </div>
             <button class="button" onclick="editProfile()">Edit Profile</button>
             <button class="button" onclick="changePassword()">Change Password</button>
-            <button class="button" onclick="logout()">Logout</button>
+            <a href="../index1.php"><button class="button" onclick="logout()">Logout</button></a>
         </div>
         <main class="profile-content">
             <h2>My Courses</h2>
@@ -129,9 +129,12 @@
             alert("Change Password functionality will be implemented here.");
         }
 
-        function logout() {
+        function logout() 
+        {
             // Implement logout functionality
-            alert("Logout functionality will be implemented here.");
+            confirm("Logout functionality will be implemented here.");
+            
+            
         }
     </script>
 </body>

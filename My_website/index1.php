@@ -43,7 +43,7 @@
                 Home
             </a>
 
-            <a href="User/courses.php">
+            <a href="#1">
             Course
             </a>
 
@@ -51,7 +51,7 @@
                 Payment status
             </a>
 
-            <a href="#review">
+            <a href="#2">
             Review
             </a>
 
@@ -63,7 +63,7 @@
             Logout
             </a>
 
-            <a href="../Student/student_include/studentMy_Profile.php">
+            <a href="../My_website/Student/studentMy_Profile.php">
             My Profile
             </a>
 
@@ -206,7 +206,7 @@ function Logout() {
     <!-----courses section starts------------>
 
     <section class="courses" id="courses">
-        <header class="section-header">
+        <header class="section-header" id="1">
             <div class="header-text">
                 <h1>Choose Your Favourite Course</h1>
                 <p>Education is our passport to the future, for tomorrow belongs only to the people who prepare for it today</p>
@@ -555,7 +555,7 @@ function Logout() {
 
 
     <!-- review section starts -->
-    <div class="testimonials">
+    <div class="testimonials" id="2">
         <div class="inner">
             <h1>My Reviews</h1>
             <div class="border"></div>

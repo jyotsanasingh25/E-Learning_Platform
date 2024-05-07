@@ -12,7 +12,7 @@
 
 <!-- main css file -->
 <link rel="stylesheet" href="../CSS/project.css">
-
+<link rel="stylesheet" href="../CSS/CD.css">
 <link rel="stylesheet" href="../CSS/bootstrap.min.css">
 
 <!--font-generator-->
@@ -79,38 +79,9 @@
 <!-- HEADER SECTION ENDS-->
 
 
-<!-- Starting of main content -->
-<div class="container-fluid bg-dark " >
-    <div class="row"> 
-        <img src="./image/coursebanner.jpg" alt="courses”
-        style="height:500px; width:100%; object-fit:cover;
-        box-shadow: 10px; "/> 
-    </div> 
-</div> 
-<!-- Ending of main content -->
-            <div class="container mt-5">
-                <div class="row"> |
-                    <div class="col-md-4">
-                        <img src="../IMAGE_FOLDER/" class="card-img-top"
-                        alt="Guitar" />
-                    </div> 
-                <div class="col-md-8"> |
-            <div class="card-body">
-                <h5 class="card-title">Course Name: Learn Guitar</h5>
-                <p class="card-text"> Description: Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Nostrum, provident.</p>
-                <p class="card-text"> Duration: 10 Days</p>
-                <form action="" method="post">
-                <p class="card-text d-inline">Price: <small><del>&#8377 2000</del></small><span class="font-weight-bolder">&#8377200<span></p> 
-                
-                <button type="submit" class="btn btn-primary text-white font-weight-bolder float-right" name="buy">Buy Now</button> 
-      
-            </form> 
-        </div>
-    </div> 
-</div>
-                
 
+                
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=8lGjMUAzIPU5wthr&amp;list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!--FOOTER SECTION STARTS  -->
 
 <section class="footer" id="footer">
