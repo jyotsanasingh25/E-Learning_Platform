@@ -55,9 +55,9 @@
             <a href="contact.php">
             Contact
             </a>
-            <a href="#My profile">
+            <!-- <a href="#My profile">
             My profile
-            </a>
+            </a> -->
             <a href="#Logout">
             Logout
             </a>
