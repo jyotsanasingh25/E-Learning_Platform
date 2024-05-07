@@ -599,6 +599,7 @@ button.Enroll-btn{
         border: 1px solid transparent;
         border-radius: 10px;
         cursor: pointer;
+        margin-top:5px;
     
 }
 /*courses section ends*/
@@ -930,26 +931,42 @@ section.instructor {
 }
 
 .footer-col-4 .col-contents input {
-    width: 100%;
-    padding: 15px;
+    width: 67%;
+    padding: 10px;
     color: black;
     background-color: white;
     border: none;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
-
-.footer-col-4 .col-contents .newsletter-btn {
-    background-color: #12c2b9;
+.footer-col-4 .col-contents .img{
+    width: 57%;
+    padding: 10px;
     color: black;
-    margin-top: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
+.footer-col-4 .col-contents .sub-btn{
+   
+    padding: 8px 16px;
+    background-color: #c62323;
+    color: #fff3f3;
+    font-size: 15px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top:5px;
 
-.footer-col-4 .col-contents .newsletter-btn:hover {
+}
+.footer-col-4 .col-contents .newsletter .sub-btn:hover {
 
-    background-color: transparent;
+    background-color: rgb(231, 15, 15);
     color: white;
     border: 2px solid var(#a9e8e5);
 }
+
 
 .footer .copy-rights {
     padding: 25px 0px 0px;
@@ -976,6 +993,7 @@ section.instructor {
 
 
 }
+
 /* footer section ends*/
 
 
